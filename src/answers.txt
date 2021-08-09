@@ -1,0 +1,21 @@
+1:  Redux is a predictable state management container / framework for javascript apps.
+
+3: 	Redux stores are global states that store data you want to use across multiple components. It
+    can be used in replacement of useContext 
+
+2:  The Provider component makes the Redux store available to any components in the app,
+    no matter how deeply nested they are.
+
+4:  The redux store object holds the entire state tree of the app.
+
+5:  To create the redux store, pass your root reducing function to createStore.
+
+6:	A reducing function that returns the next state tree, given the current state tree and an action to handle.
+
+7:	The reducer takes a state and action argument.
+
+8:	When an action object is dispatched.
+
+9: It returns an updated state value.
+
+
